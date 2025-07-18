@@ -7,8 +7,9 @@ Aplicação web para cadastro, edição, listagem e exclusão de clientes, com v
 ## 📸 Preview
 
 <!-- Substitua o caminho abaixo por uma imagem do projeto (ex: preview.gif ou screenshot.png) -->
-![preview](./assets/avantsoft-brand.png)
-![preview](./public/apple-touch-icon.png)
+![preview](./public/screenshot/Login.png)
+![preview](./public/screenshot/Clients.png)
+![preview](./public/screenshot/Stats.png)
 
 ---
 
