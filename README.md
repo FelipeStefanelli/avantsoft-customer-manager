@@ -29,18 +29,18 @@ Aplicação web para cadastro, edição, listagem e exclusão de clientes, com v
 
 ## 🚀 Funcionalidades
 
-- ✅ Listagem paginada de clientes
-- 🔍 Filtro e busca por nome ou e-mail
-- 📝 Adição e edição de clientes
-- 📅 Ordenação dinâmica da listagem por qualquer coluna
-- 📧 Validação de formulário
-- 📈 Estatísticas de vendas por cliente:
+- Listagem paginada de clientes
+- Filtro e busca por nome ou e-mail
+- Adição e edição de clientes
+- Ordenação dinâmica da listagem por qualquer coluna
+- Validação de formulário
+- Estatísticas de vendas por cliente:
   - Total vendido
   - Valor médio
   - Frequência de compra
-- 📈 Estatísticas de vendas por dia
-- 🍞 Notificações via toast
-- 💅 Estilização com Sass Modules e variáveis globais
+- Estatísticas de vendas por dia
+- Notificações via toast
+- Estilização com Sass Modules e variáveis globais
 
 ---
 
