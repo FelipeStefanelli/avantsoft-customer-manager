@@ -1,4 +1,4 @@
-# 📊 Gerenciador de Clientes – React + TypeScript + Vite
+# 📊 Gerenciador de Clientes Avantsoft
 
 Aplicação web para cadastro, edição, listagem e exclusão de clientes, com visualização de dados estatísticos de vendas. Desenvolvido com foco em usabilidade, performance e boas práticas de front-end moderno com React e Vite.
 
@@ -7,7 +7,8 @@ Aplicação web para cadastro, edição, listagem e exclusão de clientes, com v
 ## 📸 Preview
 
 <!-- Substitua o caminho abaixo por uma imagem do projeto (ex: preview.gif ou screenshot.png) -->
-![preview](./assets/preview.png)
+![preview](./assets/avantsoft-brand.png)
+![preview](./apple-touch-icon.png)
 
 ---
 
