@@ -1,69 +1,51 @@
-# React + TypeScript + Vite
+# 📊 Gerenciador de Clientes – React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web para cadastro, edição, listagem e exclusão de clientes, com visualização de dados estatísticos de vendas. Desenvolvido com foco em usabilidade, performance e boas práticas de front-end moderno com React e Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+<!-- Substitua o caminho abaixo por uma imagem do projeto (ex: preview.gif ou screenshot.png) -->
+![preview](./assets/preview.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Funcionalidades
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- ✅ Listagem paginada de clientes
+- 🔍 Filtro e busca por nome ou e-mail
+- 📝 Adição e edição de clientes em modal
+- 📅 Ordenação por data de nascimento
+- 📧 Validação de formulário
+- 📈 Estatísticas de vendas por cliente:
+  - Total vendido
+  - Valor médio
+  - Frequência de compra (dias distintos)
+- ⚠️ Exclusão com confirmação
+- 🍞 Notificações via toast (sucesso e erro)
+- 💅 Estilização com Sass Modules e variáveis globais
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tecnologias e bibliotecas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Sass Modules](https://sass-lang.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Classnames](https://www.npmjs.com/package/classnames)
+- [ESLint](https://eslint.org/)
+- [Jest + React Testing Library](https://testing-library.com/)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🔧 Instalação e uso
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/FelipeStefanelli/avantsoft-customer-manager.git
+cd seu-repo
