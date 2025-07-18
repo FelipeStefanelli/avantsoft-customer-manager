@@ -13,18 +13,18 @@ Aplicação web para cadastro, edição, listagem e exclusão de clientes, com v
 ---
 
 ## 📦 Estrutura de Pastas
+```text
 📦 avantsoft-customer-manager
  ┣ 📂 public/              # Arquivos estáticos (favicon, mockServiceWorker.js)
  ┣ 📂 src/
- ┃ ┣ 📂 components/        # Componentes reutilizáveis (Button, Input, Modal)
- ┃ ┣ 📂 pages/             # Páginas principais (Login, Clients)
+ ┃ ┣ 📂 components/        # Componentes reutilizáveis (Button, Input, Modal, NavBar)
+ ┃ ┣ 📂 pages/             # Páginas principais (Login, Clients, Stats)
  ┃ ┣ 📂 services/          # Serviços de API (mock via MSW)
- ┃ ┣ 📂 styles/            # Sass global e módulos
  ┃ ┣ 📂 utils/             # Funções utilitárias
- ┃ ┗ main.tsx              # Ponto de entrada
- ┣ package.json
- ┗ vite.config.ts
-
+ ┃ ┗ 📄 main.tsx           # Arquivo de entrada
+ ┣ 📄 package.json
+ ┗ 📄 vite.config.ts
+```
 ---
 
 ## 🚀 Funcionalidades
