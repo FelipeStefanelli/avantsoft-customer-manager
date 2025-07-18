@@ -12,6 +12,7 @@ import classNames from 'classnames'
 import { fetchClientsRaw } from '../../services/api'
 import Input from '../../components/Input/Input'
 import styles from './StatsPage.module.scss'
+import { toast } from 'react-toastify'
 
 interface SalePerDay {
   data: string
@@ -82,7 +83,7 @@ const StatsPage: React.FC = () => {
         })
       })
       .catch((err) => {
-        alert('Erro ao carregar estatísticas')
+        toast.error('Erro ao carregar estatísticas')
         console.error('Erro ao carregar estatísticas', err)
       })
       .finally(() => setLoading(false))
