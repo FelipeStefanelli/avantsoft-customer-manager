@@ -123,6 +123,8 @@ const ClientsPage: React.FC = () => {
     try {
       await deleteClientRaw(id)
       setClients(prev => prev.filter(client => client.id !== id))
+      setCurrentPage(1);
+      toast.success('Cliente deletado com sucesso!')
     } catch {
       toast.error('Erro ao deletar cliente.')
     }

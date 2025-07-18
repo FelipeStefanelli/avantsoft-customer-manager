@@ -140,6 +140,7 @@ describe('ClientsPage CRUD', () => {
 
     await waitFor(() => {
       expect(screen.queryByText('Carlos Eduardo')).not.toBeInTheDocument();
+      expect(toast.success).toHaveBeenCalledWith('Cliente deletado com sucesso!');
     });
   });
 });
